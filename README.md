@@ -13,5 +13,4 @@ cargo build --release
 cargo run -- audio/<filename>.wav
 
 🎵 Converting .mp3 → .wav (using ffmpeg)
-If your audio file is not already a .wav, you can convert it with:
-ffmpeg -i <input>.mp3 <output>.wav
+If your audio file is not already a .wav, you can convert it with: ffmpeg -i <input>.mp3 <output>.wav
