@@ -1,16 +1,16 @@
 # ParallelViz
-Parallel Fast Fourier Transform: A High-Performance Rust Implementation for Spectral Analysis
+A simple high-performance Rust implementation of the Fast Fourier Transform (FFT) for audio spectral analysis.
 
-## To compile
-`cargo build --release`
+ParallelViz takes a `.wav` audio file, processes it using a parallelized FFT pipeline, and outputs the transformed frequency-domain representation.
 
-## To run
-`cargo run -- audio/<name>.wav`
+---
 
-FILES MUST BE .WAV!!! 
+## 🔧 Compile
+```bash
+cargo build --release
 
-# convert from .mp3 to .wav using ffmpeg
+▶️ Run
+cargo run -- audio/<filename>.wav
 
-`ffmpeg -i <oldname>.mp3 <newname>.wav`
-
-easy
+🎵 Converting .mp3 → .wav (using ffmpeg)
+If your audio file is not already a .wav, you can convert it with:
